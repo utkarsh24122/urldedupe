@@ -1,5 +1,5 @@
 //
-// Created by Ameen Maali on 6/1/20.
+// 
 //
 
 #include <array>
