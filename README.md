@@ -1,5 +1,7 @@
 # urldedupe
 
+C++ tool to deduplicate URL and query string combination; Debug version of [urldedupe](https://github.com/ameenmaali/urldedupe) by [@ameenmaali](https://github.com/ameenmaali)
+
 urldedupe is a tool to quickly pass in a list of URLs, and get back a list of deduplicated (unique)
 URL and query string combination. This is useful to ensure you don't have a URL list will hundreds of duplicated parameters
 with differing qs values. For an example run, take the following URL list passed in:
@@ -45,13 +47,13 @@ https://site.com/users/photos/photo.jpg
 Why C++? Because it's super fast?!?! No not really, I'm working on my C++ skills and mostly just wanted to create a real-world C++ project as opposed to educational related work.
 
 ## Installation
-Use the binary already compiled within the repository...Or better yet to not run a random binary from myself who can be very shady, compile from source:
+Use the binary already compiled within the repository...Or, compile from source:
 
 You'll need `cmake` installed and C++ 17 or higher.
 
 Clone the repository & navigate to it:
 ```
-git clone https://github.com/ameenmaali/urldedupe.git
+git clone https://github.com/utkarsh24122/urldedupe.git
 cd urldedupe
 ```
 
